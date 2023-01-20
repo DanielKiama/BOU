@@ -1,6 +1,7 @@
 import Head from "next/head";
 import client from "../lib/sanity";
 import styled from "styled-components";
+import Link from "next/link"
 // import Image from "next/image";
 
 import styles from "../styles/Home.module.css";
