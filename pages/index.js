@@ -179,7 +179,7 @@ export default function Home({ data }) {
               <h1>Safe ● Convenient ● Secure </h1>
               <p></p>
               <p className="mt-4">
-                A Financial system should be able to maintain its fundamental functions and is also resilient to disruptions that threaten these functions. By extension, financial instability is a material disruption to the system’s functions, which has damaging consequences for the real economy.
+                A Financial system should be able to maintain its fundamental functions and is also resilient to disruptions that threaten these functions. By extension, financial instability is a material disruption to the system functions, which has damaging consequences for the real economy.
               </p>
               <p className="mt-5">
                 <button className="btn btn-dark btn">Read more</button>
@@ -263,7 +263,7 @@ export default function Home({ data }) {
                 <img src="https://www.bou.or.ug/bou/export/sites/default/.gallery/slider/Banners/MainSlider.jpg" alt="sample88" />
                 <figcaption>
                   <h2>Bank of Uganda Monetary Policy Report December 2022</h2>
-                  <p>I'm looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello? </p>
+                  <p>I&apos;m looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello? </p>
                   <Link href={"/"}>
                     <a href="#" className="read-more">Read More</a>
                   </Link>
@@ -276,7 +276,7 @@ export default function Home({ data }) {
                 <img src="https://www.bou.or.ug/bou/export/sites/default/.gallery/slider/Banners/MainSlider.jpg" alt="sample88" />
                 <figcaption>
                   <h2>Bank of Uganda State of the Economy Report December 2022</h2>
-                  <p>I'm looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello? </p>
+                  <p>I&apos;m looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello? </p>
                   <Link href={"/"}>
                     <a href="#" className="read-more">Read More</a>
                   </Link>
@@ -289,7 +289,7 @@ export default function Home({ data }) {
                 <img src="https://www.bou.or.ug/bou/export/sites/default/.gallery/slider/Banners/MainSlider.jpg" alt="sample88" />
                 <figcaption>
                   <h2>Bank of Uganda Monetary Policy Report for October 2022</h2>
-                  <p>I'm looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello? </p>
+                  <p>I&apos;m looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello? </p>
                   <Link href={"/"}>
                     <a href="#" className="read-more">Read More</a>
                   </Link>
@@ -301,8 +301,8 @@ export default function Home({ data }) {
               <figure className="snip1360">
                 <img src="https://www.bou.or.ug/bou/export/sites/default/.gallery/slider/Banners/MainSlider.jpg" alt="sample88" />
                 <figcaption>
-                  <h2>Deputy Governor’s Parliamentary appearance on January 10, 2023</h2>
-                  <p>I'm looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello? </p>
+                  <h2>Deputy Governor&apos;s Parliamentary appearance on January 10, 2023</h2>
+                  <p>I&apos;m looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello? </p>
                   <Link href={"/"}>
                     <a href="#" className="read-more">Read More</a>
                   </Link>
