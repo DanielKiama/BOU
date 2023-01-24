@@ -406,7 +406,6 @@ td{
 .about-us-area {
   position: relative;
   display: block;
-  background-color: #48191930;
   padding: 50px;
   padding-top: 0;
   z-index: 11;
@@ -417,14 +416,13 @@ td{
 .about-bg {
   position: absolute;
   top: 0;
-  left: 50px;
-  bottom: 50px;
-  right: 50px;
-  background: ##6464645e;
-  background-attachment: scroll;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: top;
   background-blend-mode: luminosity;
   z-index: -1;
 }
@@ -454,10 +452,10 @@ td{
 .about-us-area .title {
   position: absolute;
   left: 0;
-  bottom: -50px;
+  bottom: 50px;
   background: #ffffff;
   box-shadow: 0px 0px 35px 0px rgb(0 0 0 / 12%);
-  padding: 22px 30px 22px;
+  padding: 10px 15px 4px;
 }
 
 .about-us-area .title::before {
@@ -467,7 +465,7 @@ td{
   left: 0;
   right: 0;
   height: 4px;
-  background-color: #95482a;
+  background-color: #b31b34;
 }
 
 .about-us-area .title h2 {
@@ -480,7 +478,7 @@ td{
 
 .menu {
   position: absolute;
-  bottom: -116px;
+  bottom: -37px;
   right: 0;
 }
 
@@ -604,6 +602,7 @@ td{
 
 .content-text p {
   line-height: unset !important;
+  color: #7f7873;
 }
 
 .content-box {
@@ -646,7 +645,7 @@ td{
 .overlay-text h3 {
   font-size: 18px;
   font-weight: 500;
-  color: #95482a;
+  color: #b31b34;
 }
 
 .title-box {
@@ -676,6 +675,7 @@ td{
   position: relative;
   padding: 0 45px;
   margin-bottom: 43px;
+  list-style: none;
 }
 
 .single-section::before {
@@ -703,63 +703,150 @@ td{
 
 .related-icon-inner {
   position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90px;
-    height: 90px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 12%);
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    color: var(--thm-black);
-    font-size: 50px;
-    transition: all 200ms linear;
-    transition-delay: 0.1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 12%);
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  color: var(--thm-black);
+  font-size: 50px;
+  transition: all 200ms linear;
+  transition-delay: 0.1s;
 }
 
+.org-icon {
+  font-size: 30px;
+  color: #b31b34;
+}
 
-
-
-.banner-about .overlay {
-  background-color: #000;
-  opacity: 0.5;
-  min-height: 80vh;
-  width: 100vw;
-  overflow-x: hidden;
+.count {
   position: absolute;
+  top: 0;
+  left: -50px;
+  width: 50px;
+  height: 50px;
+  background-color: #f7f1eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  color: #a5a2a0;
+  font-size: 22px;
+  font-weight: 500;
 }
 
-.banner-about h1, .banner-about p {
-  color: white;
-}
-
-.banner-about button{
-      background: #95482a;
-        border: none;
-}
-
-.about-content {
-  z-index: 9;
-  padding-top: 100px;
-}
-
-.overview-section {
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.headline-title {
+.section-1 .text {
+  position: relative;
   display: block;
-  margin: 10px 0 25px;
-  border-bottom: 1px dotted #dddddf;
+  padding-top: 27px;
 }
 
-.overview-title {
-  display: inline-block;
-  margin: 0 0 -2px;
-  padding-bottom: 5px;
-  border-bottom: 2px solid #b31b34;
+.section-1 .text h3 {
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0 0 18px;
+}
+
+.section-1 .text p {
+  color: #7f7873;
+}
+
+/* Management area styling */
+.management-area {
+  position: relative;
+  display: block;
+  background-color: #f7f1eb;
+  padding: 100px 0 90px;
+}
+
+.shape {
+  position: absolute;
+  bottom: -37px;
+  right: -7px;
+  color: #fff;
+  font-size: 200px;
+}
+
+.management-text-box {
+  position: relative;
+  display: block;
+  padding: 50px 64px 50px;
+  background-color: #b31b34;
+}
+
+.management-text-box .inner-title {
+  position: relative;
+  display: block;
+  padding-bottom: 19px;
+}
+
+.management-text-box .inner-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 70px;
+  height: 2px;
+  background: #ffffff;
+}
+.management-text-box .inner-title h2 {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.management-text-box .text {
+  position: relative;
+  display: block;
+  padding-top: 33px;
+}
+
+.management-text-box .text p {
+  color: #fff;
+}
+
+/* Mandate Area Styling */
+.mandate-area {
+  position: relative;
+  display: block;
+  background: #ffffff;
+  padding: 100px 0 100px;
+  z-index: 1;
+}
+
+.mandate-content {
+  position: relative;
+  display: block;
+}
+
+.mandate-content .sec-title {
+  padding-bottom: 32px;
+}
+
+.mandate-content .sec-title h2 {
+  font-size: 48px;
+  line-height: 1.1em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.mandate-content .text {
+  position: relative;
+  display: block;
+  padding-bottom: 33px;
+}
+
+.mandate-content .text p {
+  color: #7f7873;
+}
+
+.mandate-content .text-color {
+  color: #7f7873;
 }
 
 .link {
@@ -775,31 +862,5 @@ td{
   color: #fff;
   background-position: left;
   border-bottom: 1px solid #ffffff;
-}
-
-.related-section {
-  margin-top: 58px;
-}
-
-.related-section .card {
-  border-radius: unset !important;
-}
-
-.related-section .card .related-header {
-  background-color: rgb(255, 255, 255) !important;
-}
-
-.related-header h3 {
-  display: inline-block;
-  margin: 0 0 -2px;
-  padding-bottom: 5px;
-}
-
-.related-link:hover {
-  color: #000;
-}
-
-.icon-link {
-  color: #b31b34;
 }
 
