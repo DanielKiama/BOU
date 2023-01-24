@@ -10,13 +10,13 @@ export default function about() {
     <div>
       <div className="row">
         <div className="col-12">
-          <div className="banner">
-
+          <div className="banner-about">
+            <div className="overlay"></div>
             <div className="container">
               <div className="row">
-                <div className="col-md-6 mb-4 mb-sm-0 headline">
+                <div className="col-md-6 mb-4 mb-sm-0 about-content">
 
-                  <h1 className="display-4 my-4 font-weight-bold">Banking Made <span > Easy, More Secure & More Personal</span></h1>
+                  <h1 className="display-4 my-4 font-weight-bold">We are <span > Uganda's central bank.</span></h1>
                   <p>Promoting Price and Financial System Stability</p>
                   <button type="button" className="btn btn-dark btn px-5 py-3 text-white mt-4 mt-sm-0">Learn more</button>
                 </div>
@@ -24,9 +24,6 @@ export default function about() {
 
                 </div>
               </div>
-            </div>
-            <div className="right_graphic">
-
             </div>
           </div>
         </div>

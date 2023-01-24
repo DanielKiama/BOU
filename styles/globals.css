@@ -403,6 +403,42 @@ td{
 }
 
 /* ABOUT STYLES */
+.banner-about {
+  min-height: 80vh;
+  overflow-x: hidden;
+  background-image: url(/money.jpg);
+  width: 100vw;
+  background-size: cover;
+  margin-top: 61px;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.banner-about .overlay {
+  background-color: #000;
+  opacity: 0.5;
+  min-height: 80vh;
+  width: 100vw;
+  overflow-x: hidden;
+  position: absolute;
+}
+
+.banner-about h1, .banner-about p {
+  color: white;
+}
+
+.banner-about button{
+      background: #95482a;
+        border: none;
+}
+
+.about-content {
+  z-index: 9;
+  padding-top: 100px;
+}
+
 .overview-section {
   margin-top: 20px;
   margin-bottom: 40px;
