@@ -412,22 +412,450 @@ td{
 }
 
 /* ABOUT STYLES */
-.overview-section {
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.headline-title {
+.about-us-area {
+  position: relative;
   display: block;
-  margin: 10px 0 25px;
-  border-bottom: 1px dotted #dddddf;
+  padding: 50px;
+  padding-top: 0;
+  z-index: 11;
+  min-height: 50vh;
+  margin-top: 60px;
 }
 
-.overview-title {
-  display: inline-block;
-  margin: 0 0 -2px;
-  padding-bottom: 5px;
-  border-bottom: 2px solid #b31b34;
+.about-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-blend-mode: luminosity;
+  z-index: -1;
+}
+
+.about-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000000;
+  opacity: 0.15;
+}
+
+.about-us-area .inner-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 360px 0 0px;
+  z-index: 10;
+}
+
+.about-us-area .title {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  background: #ffffff;
+  box-shadow: 0px 0px 35px 0px rgb(0 0 0 / 12%);
+  padding: 10px 15px 4px;
+}
+
+.about-us-area .title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #b31b34;
+}
+
+.about-us-area .title h2 {
+  font-size: 40px;
+  line-height: 1.2em;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: -0.02em;
+}
+
+.menu {
+  position: absolute;
+  bottom: -37px;
+  right: 0;
+}
+
+.menu ul {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu ul li {
+  position: relative;
+  display: block;
+  float: left;
+  color: #7f7873;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-right: 10px;
+}
+
+.menu ul li a {
+  color: #7f7873;
+  transition: all 200ms linear;
+  transition-delay: 0.1s;
+}
+
+.menu ul li:last-child {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.menu .menu-icon {
+  bottom: 0px;
+  font-size: 12px;
+}
+
+/* Intro-area-section */
+.intro-area {
+  position: relative;
+  display: block;
+  background-color: #ffffff;
+  padding: 100px 0 100px;
+  z-index: 1;
+}
+
+.video-gallery {
+  position: relative;
+  display: block;
+  min-height: 720px;
+  margin-right: 20px;
+}
+
+.video-gallery-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #6464645e;
+  background-blend-mode: luminosity;
+}
+
+.video-gallery-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-gallery-button .icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  background: #ffffff;
+  margin: 0 auto;
+  transition: all 200ms linear;
+  transition-delay: 0.1s;
+  z-index: 2;
+}
+
+.play-icon {
+  font-size: 50px;
+}
+
+.intro-content-box {
+  position: relative;
+  display: block;
+}
+
+.content-title {
+  position: relative;
+  display: block;
+  margin-top: -8px;
+  padding-bottom: 33px;
+}
+
+.content-title h2 {
+  font-size: 48px;
+  line-height: 1.1em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.content-text {
+  position: relative;
+  display: block;
+  padding-bottom: 43px;
+}
+
+.content-text p {
+  line-height: unset !important;
+  color: #7f7873;
+}
+
+.content-box {
+  position: relative;
+  display: block;
+  padding-right: 20px;
+}
+
+.img-box {
+  position: relative;
+  display: block;
+  background-color: #646464;
+}
+
+.inner-img-box {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  object-fit: cover;
+  background-position: center;
+  background-size: inherit;
+  background-repeat: no-repeat;
+}
+
+.inner-img-box:hover {
+  mix-blend-mode: luminosity;
+  transition: all 200ms ease;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 20px;
+  right: -20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 12%);
+  padding: 10px 20px 5px;
+  z-index: 2;
+}
+
+.overlay-text h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #b31b34;
+}
+
+.title-box {
+  position: relative;
+  display: block;
+  padding-top: 22px;
+}
+
+.title-box h3 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.title-box a {
+  transition: all 200ms linear;
+  transition-delay: 0.1s;
+}
+
+.related-area {
+  position: relative;
+  display: block;
+  background: #ffffff;
+  padding: 0px 0 50px;
+}
+
+.single-section {
+  position: relative;
+  padding: 0 45px;
+  margin-bottom: 43px;
+  list-style: none;
+}
+
+.single-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 7px;
+  width: 1px;
+  background: #e0e6e7;
+}
+
+.section-1 {
+  position: relative;
+  display: block;
+}
+
+.related-icon-area {
+  position: relative;
+  display: block;
+  padding-top: 50px;
+  width: 90px;
+  margin: 0 auto;
+}
+
+.related-icon-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 12%);
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  color: var(--thm-black);
+  font-size: 50px;
+  transition: all 200ms linear;
+  transition-delay: 0.1s;
+}
+
+.org-icon {
+  font-size: 30px;
+  color: #b31b34;
+}
+
+.count {
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 50px;
+  height: 50px;
+  background-color: #f7f1eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  color: #a5a2a0;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.section-1 .text {
+  position: relative;
+  display: block;
+  padding-top: 27px;
+}
+
+.section-1 .text h3 {
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0 0 18px;
+}
+
+.section-1 .text p {
+  color: #7f7873;
+}
+
+/* Management area styling */
+.management-area {
+  position: relative;
+  display: block;
+  background-color: #f7f1eb;
+  padding: 100px 0 90px;
+}
+
+.shape {
+  position: absolute;
+  bottom: -37px;
+  right: -7px;
+  color: #fff;
+  font-size: 200px;
+}
+
+.management-text-box {
+  position: relative;
+  display: block;
+  padding: 50px 64px 50px;
+  background-color: #b31b34;
+}
+
+.management-text-box .inner-title {
+  position: relative;
+  display: block;
+  padding-bottom: 19px;
+}
+
+.management-text-box .inner-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 70px;
+  height: 2px;
+  background: #ffffff;
+}
+.management-text-box .inner-title h2 {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.management-text-box .text {
+  position: relative;
+  display: block;
+  padding-top: 33px;
+}
+
+.management-text-box .text p {
+  color: #fff;
+}
+
+/* Mandate Area Styling */
+.mandate-area {
+  position: relative;
+  display: block;
+  background: #ffffff;
+  padding: 100px 0 100px;
+  z-index: 1;
+}
+
+.mandate-content {
+  position: relative;
+  display: block;
+}
+
+.mandate-content .sec-title {
+  padding-bottom: 32px;
+}
+
+.mandate-content .sec-title h2 {
+  font-size: 48px;
+  line-height: 1.1em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.mandate-content .text {
+  position: relative;
+  display: block;
+  padding-bottom: 33px;
+}
+
+.mandate-content .text p {
+  color: #7f7873;
+}
+
+.mandate-content .text-color {
+  color: #7f7873;
 }
 
 .link {
@@ -443,31 +871,5 @@ td{
   color: #fff;
   background-position: left;
   border-bottom: 1px solid #ffffff;
-}
-
-.related-section {
-  margin-top: 58px;
-}
-
-.related-section .card {
-  border-radius: unset !important;
-}
-
-.related-section .card .related-header {
-  background-color: rgb(255, 255, 255) !important;
-}
-
-.related-header h3 {
-  display: inline-block;
-  margin: 0 0 -2px;
-  padding-bottom: 5px;
-}
-
-.related-link:hover {
-  color: #000;
-}
-
-.icon-link {
-  color: #b31b34;
 }
 
