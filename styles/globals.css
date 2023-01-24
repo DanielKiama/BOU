@@ -410,3 +410,64 @@ td{
   font-size: 14px;
   color: #878787;
 }
+
+/* ABOUT STYLES */
+.overview-section {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.headline-title {
+  display: block;
+  margin: 10px 0 25px;
+  border-bottom: 1px dotted #dddddf;
+}
+
+.overview-title {
+  display: inline-block;
+  margin: 0 0 -2px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #b31b34;
+}
+
+.link {
+  display: inline;
+  border-bottom: 1px solid #b31b34;
+  /* "to left" / "to right" - affects initial color */
+  background: linear-gradient(to left, #ffffff 50%, #b31b34 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+
+.link:hover {
+  color: #fff;
+  background-position: left;
+  border-bottom: 1px solid #ffffff;
+}
+
+.related-section {
+  margin-top: 58px;
+}
+
+.related-section .card {
+  border-radius: unset !important;
+}
+
+.related-section .card .related-header {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.related-header h3 {
+  display: inline-block;
+  margin: 0 0 -2px;
+  padding-bottom: 5px;
+}
+
+.related-link:hover {
+  color: #000;
+}
+
+.icon-link {
+  color: #b31b34;
+}
+
