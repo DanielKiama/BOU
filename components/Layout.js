@@ -7,7 +7,7 @@ export default function Layout({ children }) {
     return (
         <>
             <Head>
-                <title>Faraja Support Cancer - Trust Fund Supoort</title>
+                <title>Bank of Uganda</title>
             </Head>
             <NavBar />
             <main>
