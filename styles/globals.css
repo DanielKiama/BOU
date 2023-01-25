@@ -49,10 +49,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
 .btn-dark{
   background-color: #95482a;
   border: none;
 }
+
 .headline {
   left: 130px;
   padding: 11% 0;
@@ -885,4 +887,296 @@ td{
   background-position: left;
   border-bottom: 1px solid #ffffff;
 }
+
+
+/* CAREERS PAGE STYLING */
+.career-area {
+  position: relative;
+  display: block;
+  padding: 50px;
+  padding-top: 0;
+  z-index: 11;
+  min-height: 50vh;
+  margin-top: 60px;
+}
+
+.career-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-blend-mode: luminosity;
+  z-index: -1;
+}
+
+.career-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000000;
+  opacity: 0.15;
+}
+
+.career-area .inner-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 360px 0 0px;
+  z-index: 10;
+}
+
+.career-area .title {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  background: #ffffff;
+  box-shadow: 0px 0px 35px 0px rgb(0 0 0 / 12%);
+  padding: 10px 15px 4px;
+}
+
+.career-area .title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #b31b34;
+}
+
+.career-area .title h2 {
+  font-size: 40px;
+  line-height: 1.2em;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: -0.02em;
+}
+
+/* Intro-section styles */
+.intro-section {
+  position: relative;
+  display: block;
+  background: #ffffff;
+  padding: 100px 0 100px;
+  z-index: 1;
+}
+
+.intro-img-box {
+  position: relative;
+  display: block;
+  padding-right: 20px;
+}
+
+.intro-img-box .inner-content {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: #646464;
+}
+
+.intro-content-box {
+  position: relative;
+  display: block;
+}
+
+.intro-content-box .sec-title {
+  padding-bottom: 32px;
+}
+
+.sec-title h2 {
+  font-size: 48px;
+  line-height: 1.1em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.intro-content-box .text {
+  position: relative;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.intro-content-box .text p {
+  color: #7f7873;
+}
+
+/* Job-listing-area Styling */
+.job-listing-area {
+  position: relative;
+  display: block;
+  background: #ffffff;
+  padding: 100px 0 100px;
+  z-index: 1;
+}
+
+.job-listing-box {
+  position: relative;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.job-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+
+.job-title h3 {
+  font-size: 48px;
+  line-height: 1.1em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.job-listing-box .table-outer {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.job-listing-box .table-outer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.job-listing-table {
+  min-width: 1024px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.job-listing-table .header {
+  position: relative;
+  background: #f7f1eb;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.job-listing-table thead tr th {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  min-width: 110px;
+  padding: 13px 30px;
+  border: 1px solid #e2deda;
+  text-transform: uppercase;
+}
+
+.job-listing-table tbody {
+  position: relative;
+  border: 1px solid #f2ece7;
+}
+
+.job-listing-table tbody tr {
+  border-bottom: 1px solid #f2ece7;
+}
+
+.job-listing-table tbody tr td {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  min-width: 110px;
+  padding: 27.5px 30px;
+  border: 1px solid #f2ece7;
+}
+
+.job-listing-table tbody tr td.job-role h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.job-listing-table tbody tr td.description p {
+  color: #7f7873;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.job-listing-table tbody tr td .btn-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+.job-listing-table tbody tr td .btn-box a {
+  border: 1px solid #f2ece7;
+  line-height: 38px;
+}
+
+.job-listing-table tbody tr td .btn-box a:hover {
+  color: #fff;
+}
+
+.btn-one {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+  background-color: #b31b34;
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  z-index: 2;
+}
+
+.btn-box::before {
+  position: absolute;
+  top: 110px;
+  left: -50px;
+  right: -50px;
+  height: 170px;
+  content: "";
+  -webkit-transform: translateY(-50px);
+  transform: translateY(-50px);
+  border-radius: 50%;
+  transition-duration: 800ms;
+  z-index: 1;
+}
+
+.btn-box::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 0px;
+  background-color: #ffffff;
+  opacity: 1;
+  transform: scaleX(1.0);
+  transition-duration: 800ms;
+  z-index: -1;
+}
+
+.btn-box .txt {
+  position: relative;
+  z-index: 1;
+}
+
 
