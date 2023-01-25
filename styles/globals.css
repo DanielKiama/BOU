@@ -51,7 +51,7 @@ a {
 }
 
 .btn-dark{
-  background-color: #95482a;
+  background-color: #b31b34;
   border: none;
 }
 
@@ -103,7 +103,7 @@ a {
   color: white;
 }
 .banner button{
-      background: #95482a;
+      background: #b31b34;
         border: none;
 }
 
@@ -134,7 +134,7 @@ a {
 
 }
 .cta_section button {
-  background:#95482a;
+  background:#b31b34;
   min-width: 20%;
 }
 
@@ -818,6 +818,7 @@ td{
   height: 2px;
   background: #ffffff;
 }
+
 .management-text-box .inner-title h2 {
   color: #ffffff;
   font-size: 48px;
@@ -1028,9 +1029,22 @@ td{
 }
 
 .job-title {
+  position: relative;
   display: flex;
   justify-content: center;
   padding-bottom: 32px;
+  text-align: center;
+}
+
+.job-listing-area .job-title::before {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  width: 200px;
+  height: 2px;
+  background: #b31b34;
+  display: flex;
+  justify-content: center;
 }
 
 .job-title h3 {
@@ -1038,6 +1052,7 @@ td{
   line-height: 1.1em;
   font-weight: 500;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .job-listing-box .table-outer {

@@ -93,7 +93,7 @@ export default function career() {
         <div className='row'>
           <div className='col-xl-12 col-12 col-md-12'>
             <div className='job-title'>
-              <h3>Bank Of Uganda a Fun Place to Work</h3>
+              <h3>Bank Of Uganda <br/> a Fun Place to Work</h3>
             </div>
           </div>
           <div className='col-xl-12 col-12 col-md-12'>
@@ -118,6 +118,27 @@ export default function career() {
                           and subsequent opening of the Economy, 
                           Management of Bank of Uganda has resumed 
                           its Internship Programme.
+                        </p>
+                      </td>
+                      <td>
+                        <div className='btn-box'>
+                          <Link href={'/'}>
+                            <a className='btn-one'>
+                              <span className='txt'>Apply</span>
+                            </a>
+                          </Link>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='job-role'>
+                        <h3>Debt Management Programme</h3>
+                      </td>
+                      <td className='description'>
+                        <p>
+                          Applications are invited from suitably qualified 
+                          nationals of MEFMI member countries to 
+                          fill the position of Director - Debt Management Programme.
                         </p>
                       </td>
                       <td>
