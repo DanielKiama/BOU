@@ -32,7 +32,7 @@ export default function NavBar() {
 
               </li>
               <li className="nav-item">
-                <Link href={"/"}>
+                <Link href={"/blog"}>
                   <a className="nav-link active">
                     Blog
                   </a>
