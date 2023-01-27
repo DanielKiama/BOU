@@ -12,7 +12,7 @@ export default function about() {
   return (
     <>
     <section className='about-us-area'>
-        <div className='about-bg' style={{ backgroundImage: 'url(/economy.jpg)'}}></div>
+        <div className='about-bg' style={{ backgroundImage: 'url(/header.jpg)'}}></div>
         <div className='container'>
             <div className='row'>
                 <div className='col-12 col-md-12'>
