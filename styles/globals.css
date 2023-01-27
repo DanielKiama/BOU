@@ -59,7 +59,7 @@ h3{
 }
 
 .btn-dark{
-  background-color: #b31b34;
+  background-color: #0d4d63;
   border: none;
 }
 
@@ -112,7 +112,7 @@ h3{
   color: white;
 }
 .banner button{
-      background: #b31b34;
+      background: #0d4d63;
         border: none;
 }
 
@@ -143,7 +143,7 @@ h3{
 
 }
 .cta_section button {
-  background:#b31b34;
+  background:#0d4d63;
   min-width: 20%;
 }
 
@@ -498,7 +498,7 @@ td{
   left: 0;
   right: 0;
   height: 4px;
-  background-color: #b31b34;
+  background-color: #0d4d63;
 }
 
 .about-us-area .title h2 {
@@ -678,7 +678,7 @@ td{
 .overlay-text h3 {
   font-size: 18px;
   font-weight: 500;
-  color: #b31b34;
+  color: #0d4d63;
 }
 
 .title-box {
@@ -753,7 +753,7 @@ td{
 
 .org-icon {
   font-size: 30px;
-  color: #b31b34;
+  color: #0d4d63;
 }
 
 .count {
@@ -809,7 +809,7 @@ td{
   position: relative;
   display: block;
   padding: 50px 64px 50px;
-  background-color: #b31b34;
+  background-color: #0d4d63;
 }
 
 .management-text-box .inner-title {
@@ -885,9 +885,9 @@ td{
 
 .link {
   display: inline;
-  border-bottom: 1px solid #b31b34;
+  border-bottom: 1px solid #0d4d63;
   /* "to left" / "to right" - affects initial color */
-  background: linear-gradient(to left, #ffffff 50%, #b31b34 50%) right;
+  background: linear-gradient(to left, #ffffff 50%, #0d4d63 50%) right;
   background-size: 200%;
   transition: .5s ease-out;
 }
@@ -962,7 +962,7 @@ td{
   left: 0;
   right: 0;
   height: 4px;
-  background-color: #b31b34;
+  background-color: #0d4d63;
 }
 
 .career-area .title h2 {
@@ -1051,7 +1051,7 @@ td{
   bottom: 20px;
   width: 200px;
   height: 2px;
-  background: #b31b34;
+  background: #0d4d63;
   display: flex;
   justify-content: center;
 }
@@ -1157,7 +1157,7 @@ td{
   padding-left: 30px;
   padding-right: 30px;
   color: #fff;
-  background-color: #b31b34;
+  background-color: #0d4d63;
   font-size: 18px;
   line-height: 60px;
   font-weight: 500;
