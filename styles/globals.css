@@ -87,7 +87,7 @@ h3{
 .banner {
   min-height: 80vh;
   overflow-x: hidden;
-  background: url('https://downloads.ctfassets.net/di1zc7l0b6uf/2lQk8SFHwvEmLIX6leT54z/3f6d7fc29eea5838acab86d4d0e4093d/mwanje-henry-_Zb5-tOmEes-unsplash.png');
+  background: url('https://images.ctfassets.net/di1zc7l0b6uf/4WrA3rnyaBVVXGywguO7Uv/0263f8075317e1628b893a63613df2c0/New_Project.webp');
   width: 100vw;
   background-size: cover;
   margin-top: 70px;
@@ -103,7 +103,7 @@ h3{
     z-index: 10;
     position: absolute;
     right: 0;
-    background: url('https://images.ctfassets.net/di1zc7l0b6uf/4WrA3rnyaBVVXGywguO7Uv/0263f8075317e1628b893a63613df2c0/New_Project.webp');
+    background: url('https://images.ctfassets.net/di1zc7l0b6uf/6vJ2hsvNaXfNb5adn6DrwE/5430155027eb0ff40acc418620efe72a/slider-1-shape-1__1_.png');
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.5;
