@@ -116,7 +116,7 @@ export default function about() {
 
     <section className='related-area'>
         <div className='container'>
-            <ul className='row'>
+            <ul className='row p-0'>
                 <li className='col-xl-4 col-lg-4 single-section text-center'>
                     <div className='section-1'>
                         <div className='related-icon-area'>
