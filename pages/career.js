@@ -64,7 +64,7 @@ export default function career() {
       <section className='management-area'>
         <div className='container'>
             <div className='row'>
-                <div className='col-xl-6 col-6 col-md-6'>
+                <div className='col-xl-6 col-6 col-md-6 col-12'>
                     <div className='management-text-box'>
                         <div className='inner-title'>
                             <h2>Be Aware!!</h2>
@@ -78,7 +78,7 @@ export default function career() {
                         </div>
                     </div>
                 </div>
-                <div className='col-xl-6 col-6 col-md-6'>
+                <div className='col-xl-6 col-6 col-md-6 col-12'>
                   <div className='intro-img-box'>
                     <div className='inner-content' style={{ height: '290px', marginTop: '30px'}}>
                       <Image src={FakeAd} />

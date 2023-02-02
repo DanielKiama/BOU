@@ -137,7 +137,57 @@ export default function NavBar() {
             </ul>
           </div>
 
+          <div className='mobile_nav'>
 
+          
+            <input type="checkbox" id="navi-toggle" className="checkbox" />
+            <label for="navi-toggle" className="button">
+              <span className="icon">&nbsp;</span>
+            </label>
+            <div className="background">&nbsp;</div>
+
+  
+            <nav className="nav">
+              <ul className="list">
+                <li className="item "> 
+                  <Link href={"/"}>
+                    <a className=" active">
+                      Home
+                    </a>
+                  </Link>
+                </li>
+                <li className="item has_dropdown"> Bank of Uganda <span>+</span>
+                <ul>
+                    <li>
+                      <Link href={"/about"}>
+                        <a className=" active">
+                          Who we are
+                        </a>
+                      </Link>
+                    </li>
+                    <li>Statics</li>
+                    <li>Financial inclusion</li>
+                </ul>
+                  
+                </li>
+                <li className="item"> 
+                  <Link href={"/blog"}>
+                    <a className=" active">
+                      Blog
+                    </a>
+                  </Link>
+                  </li>
+                <li className="item">
+                  <Link href={"/career"}>
+                    <a className=" active">
+                      Careers
+                    </a>
+                  </Link>
+                </li>
+                <li className="item"> Contact</li>
+              </ul>
+            </nav>
+          </div>
 
         </div>
       </header>

@@ -43,7 +43,7 @@ export default function about() {
     <section className='intro-area'>
         <div className='container'>
             <div className='row'>
-                <div className='col-6 col-xl-6 col-md-6'>
+                <div className='col-6 col-xl-6 col-md-6 col-12'>
                     <div className='video-gallery'>
                         <div className='video-gallery-bg' style={{ backgroundImage: 'url(/western.jpg)'}}></div>
                         <div className='video-gallery-button'>
@@ -55,9 +55,9 @@ export default function about() {
                         </div>
                     </div>
                 </div>
-                <div className='col-6 col-xl-6 col-md-6'>
+                <div className='col-6 col-xl-6 col-md-6 col-12'>
                     <div className='intro-content-box'>
-                        <div className='content-title'>
+                        <div className='content-title'><br/>
                             <h2>Overview About <br/> Bank Of Uganda</h2>
                         </div>
                         <div className='content-text'>
@@ -186,7 +186,7 @@ export default function about() {
     <section className='management-area'>
         <div className='container'>
             <div className='row'>
-                <div className='col-xl-12 col-12 col-md-12'>
+                <div className='col-xl-12 col-12 col-md-12 col-12'>
                     <div className='management-text-box'>
                         <div className='shape'>
                             <GiSpatter />
@@ -217,7 +217,7 @@ export default function about() {
     <section className='mandate-area'>
         <div className='container'>
             <div className='row'>
-            <div className='col-xl-6 col-6 col-md-6'>
+            <div className='col-xl-6 col-6 col-md-6 col-12'>
                 <div className='mandate-content'>
                     <div className='sec-title'>
                         <h2>Bank of Uganda <br/> Mandate</h2>
@@ -237,8 +237,8 @@ export default function about() {
                     </div>
                 </div>
             </div>
-            <div className='col-xl-6 col-6 col-md-6'>
-                <div className='mandate-content-img' style={{ width: "380px", marginLeft: '120px'}}>
+            <div className='col-xl-6 col-6 col-md-6 col-12'>
+                <div className='mandate-content-img' style={{ width: "100%"}}>
                     <Image src={manDate} />
                 </div>
             </div>
