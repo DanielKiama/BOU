@@ -9,7 +9,7 @@ export default function career() {
   return (
     <>
       <section className='career-area'>
-          <div className='career-bg' style={{ backgroundImage: 'url(/economy.jpg)'}}></div>
+          <div className='career-bg' style={{ backgroundImage: 'url(/careers.jpg)'}}></div>
           <div className='container'>
               <div className='row'>
                   <div className='col-12 col-md-12'>

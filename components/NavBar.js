@@ -34,7 +34,7 @@ export default function NavBar() {
 
               </li>
               <li className="nav-item has_dropdown">
-                <Link href={"/blog"}>
+                <Link href={"/about"}>
                   <a className="nav-link active">
                     Bank of Uganda
                   </a>
@@ -106,6 +106,13 @@ export default function NavBar() {
                     </ul>
                    </div>
                   </div>
+              </li>
+              <li className="nav-item">
+                <Link href={"/blog"}>
+                  <a className="nav-link active">
+                    Blog
+                  </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <Link href={"/career"}>
