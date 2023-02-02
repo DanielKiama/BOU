@@ -121,7 +121,7 @@ export default function Home({ data }) {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 col-md-3">
+            <div className="col-12 col-md-4">
               <figure className="snip1360">
                 <img src="https://www.bou.or.ug/bou/export/sites/default/.gallery/slider/Banners/MainSlider.jpg" alt="sample88" />
                 <figcaption>
@@ -134,7 +134,7 @@ export default function Home({ data }) {
               </figure>
 
             </div>
-            <div className="col-12 col-md-3">
+            <div className="col-12 col-md-4">
               <figure className="snip1360">
                 <img src="https://www.bou.or.ug/bou/export/sites/default/.gallery/slider/Banners/MainSlider.jpg" alt="sample88" />
                 <figcaption>
@@ -147,7 +147,7 @@ export default function Home({ data }) {
               </figure>
 
             </div>
-            <div className="col-12 col-md-3">
+            <div className="col-12 col-md-4">
               <figure className="snip1360">
                 <img src="https://www.bou.or.ug/bou/export/sites/default/.gallery/slider/Banners/MainSlider.jpg" alt="sample88" />
                 <figcaption>
@@ -160,11 +160,14 @@ export default function Home({ data }) {
               </figure>
 
             </div>
-            <div className="col-12 col-md-3">
+           
+          </div>
+          <div className="row">
+            <div className="col-12 col-md-4">
               <figure className="snip1360">
                 <img src="https://www.bou.or.ug/bou/export/sites/default/.gallery/slider/Banners/MainSlider.jpg" alt="sample88" />
                 <figcaption>
-                  <h2>Deputy Governor&apos;s Parliamentary appearance on January 10, 2023</h2>
+                  <h2>Bank of Uganda Monetary Policy Report December 2022</h2>
                   <p>I&apos;m looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello? </p>
                   <Link href={"/"}>
                     <a href="#" className="read-more">Read More</a>
@@ -173,6 +176,33 @@ export default function Home({ data }) {
               </figure>
 
             </div>
+            <div className="col-12 col-md-4">
+              <figure className="snip1360">
+                <img src="https://www.bou.or.ug/bou/export/sites/default/.gallery/slider/Banners/MainSlider.jpg" alt="sample88" />
+                <figcaption>
+                  <h2>Bank of Uganda State of the Economy Report December 2022</h2>
+                  <p>I&apos;m looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello? </p>
+                  <Link href={"/"}>
+                    <a href="#" className="read-more">Read More</a>
+                  </Link>
+                </figcaption>
+              </figure>
+
+            </div>
+            <div className="col-12 col-md-4">
+              <figure className="snip1360">
+                <img src="https://www.bou.or.ug/bou/export/sites/default/.gallery/slider/Banners/MainSlider.jpg" alt="sample88" />
+                <figcaption>
+                  <h2>Bank of Uganda Monetary Policy Report for October 2022</h2>
+                  <p>I&apos;m looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello? </p>
+                  <Link href={"/"}>
+                    <a href="#" className="read-more">Read More</a>
+                  </Link>
+                </figcaption>
+              </figure>
+
+            </div>
+
           </div>
         </div>
       </div>

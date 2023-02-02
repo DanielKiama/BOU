@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from "next/link";
+import { FaMoneyBillAlt } from 'react-icons/fa'
+import { BsFillFileBarGraphFill } from 'react-icons/bs'
 
 export default function NavBar() {
   return (
@@ -21,7 +23,7 @@ export default function NavBar() {
           </button>
 
 
-          <div id="navbarCollapse" className="collapse navbar-collapse">
+          <div id="navbarCollapse" className=" ">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link href={"/"}>
@@ -31,12 +33,79 @@ export default function NavBar() {
                 </Link>
 
               </li>
-              <li className="nav-item">
+              <li className="nav-item has_dropdown">
                 <Link href={"/blog"}>
                   <a className="nav-link active">
-                    About
+                    Bank of Uganda
                   </a>
                 </Link>
+                  <div className='mega_nav'>
+                   <div className='container'>
+                    <ul className='row'>
+
+                      <li className='col-12 col-md-4 '>
+                           <div className='row p-0 m-0'>
+                              <div className='col-3 p-0'>
+                            <FaMoneyBillAlt className='icon'/>
+                              </div>
+                              <div className='col-9 p-0'>
+                            <h6>Who we are <span className='badge badge-pill badge-warning'>New</span></h6>
+                            <p>Some dummy text will go in here</p>
+                              </div>
+                           </div>
+                      </li>
+
+                      <li className='col-12 col-md-4 '>
+                        <div className='row p-0 m-0'>
+                          <div className='col-3 p-0'>
+                            <BsFillFileBarGraphFill className='icon' />
+                          </div>
+                          <div className='col-9 p-0'>
+                            <h6>Who we are </h6>
+                            <p>Some dummy text will go in here</p>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li className='col-12 col-md-4 '>
+                        <div className='row p-0 m-0'>
+                          <div className='col-3 p-0'>
+                            <FaMoneyBillAlt className='icon' />
+                          </div>
+                          <div className='col-9 p-0'>
+                            <h6>Who we are</h6>
+                            <p>Some dummy text will go in here</p>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li className='col-12 col-md-4 '>
+                        <div className='row p-0 m-0'>
+                          <div className='col-3 p-0'>
+                            <FaMoneyBillAlt className='icon' />
+                          </div>
+                          <div className='col-9 p-0'>
+                            <h6>Who we are </h6>
+                            <p>Some dummy text will go in here</p>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li className='col-12 col-md-4 '>
+                        <div className='row p-0 m-0'>
+                          <div className='col-3 p-0'>
+                            <FaMoneyBillAlt className='icon' />
+                          </div>
+                          <div className='col-9 p-0'>
+                            <h6>Who we are </h6>
+                            <p>Some dummy text will go in here</p>
+                          </div>
+                        </div>
+                      </li>
+                     
+                    </ul>
+                   </div>
+                  </div>
               </li>
               <li className="nav-item">
                 <Link href={"/career"}>
