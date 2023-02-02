@@ -34,16 +34,20 @@ export default function NavBar() {
 
               </li>
               <li className="nav-item has_dropdown">
-                <Link href={"/about"}>
-                  <a className="nav-link active">
+              <Link href={''}>
+                  <a className="nav-link">
                     Bank of Uganda
-                  </a>
+                </a>
                 </Link>
+                   
+            
                   <div className='mega_nav'>
                    <div className='container'>
                     <ul className='row'>
 
                       <li className='col-12 col-md-4 '>
+                        <Link href={"/about"}>
+                          <a className="nav-link active">
                            <div className='row p-0 m-0'>
                               <div className='col-3 p-0'>
                             <FaMoneyBillAlt className='icon'/>
@@ -53,6 +57,8 @@ export default function NavBar() {
                             <p>Some dummy text will go in here</p>
                               </div>
                            </div>
+                           </a>
+                           </Link>
                       </li>
 
                       <li className='col-12 col-md-4 '>

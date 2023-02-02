@@ -1297,3 +1297,11 @@ li.nav-item.has_dropdown {
 .nav-link {
   color: #0d4d63;
 }
+
+
+/* MOBILE NAV CSS */
+@media only screen and (max-width:1070px){
+  .navbar-nav{
+    display: none;
+  }
+}
