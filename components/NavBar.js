@@ -67,7 +67,7 @@ export default function NavBar() {
                             <BsFillFileBarGraphFill className='icon' />
                           </div>
                           <div className='col-9 p-0'>
-                            <h6>Who we are </h6>
+                            <h6>Careers </h6>
                             <p>Some dummy text will go in here</p>
                           </div>
                         </div>
@@ -79,19 +79,7 @@ export default function NavBar() {
                             <FaMoneyBillAlt className='icon' />
                           </div>
                           <div className='col-9 p-0'>
-                            <h6>Who we are</h6>
-                            <p>Some dummy text will go in here</p>
-                          </div>
-                        </div>
-                      </li>
-
-                      <li className='col-12 col-md-4 '>
-                        <div className='row p-0 m-0'>
-                          <div className='col-3 p-0'>
-                            <FaMoneyBillAlt className='icon' />
-                          </div>
-                          <div className='col-9 p-0'>
-                            <h6>Who we are </h6>
+                            <h6>Agricultural Credit Facility</h6>
                             <p>Some dummy text will go in here</p>
                           </div>
                         </div>
@@ -104,6 +92,18 @@ export default function NavBar() {
                           </div>
                           <div className='col-9 p-0'>
                             <h6>Who we are </h6>
+                            <p>Some dummy text will go in here</p>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li className='col-12 col-md-4 '>
+                        <div className='row p-0 m-0'>
+                          <div className='col-3 p-0'>
+                            <FaMoneyBillAlt className='icon' />
+                          </div>
+                          <div className='col-9 p-0'>
+                            <h6>Banking and Currency </h6>
                             <p>Some dummy text will go in here</p>
                           </div>
                         </div>
@@ -113,6 +113,83 @@ export default function NavBar() {
                    </div>
                   </div>
               </li>
+
+
+
+
+              <li className="nav-item has_dropdown">
+                <Link href={''}>
+                  <a className="nav-link">
+               Media center
+                  </a>
+                </Link>
+
+
+                <div className='mega_nav'>
+                  <div className='container'>
+                    <ul className='row'>
+
+                      <li className='col-12 col-md-4 '>
+                        <Link href={"/about"}>
+                          <a className="nav-link active">
+                            <div className='row p-0 m-0'>
+                              <div className='col-3 p-0'>
+                                <FaMoneyBillAlt className='icon' />
+                              </div>
+                              <div className='col-9 p-0'>
+                                <h6> Events Calendar<span className='badge badge-pill badge-warning'>New</span></h6>
+                                <p>Some dummy text will go in here</p>
+                              </div>
+                            </div>
+                          </a>
+                        </Link>
+                      </li>
+
+                      <li className='col-12 col-md-4 '>
+                        <div className='row p-0 m-0'>
+                          <div className='col-3 p-0'>
+                            <BsFillFileBarGraphFill className='icon' />
+                          </div>
+                          <div className='col-9 p-0'>
+                            <h6>BOU Public Lectures </h6>
+                            <p>Some dummy text will go in here</p>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li className='col-12 col-md-4 '>
+                        <div className='row p-0 m-0'>
+                          <div className='col-3 p-0'>
+                            <FaMoneyBillAlt className='icon' />
+                          </div>
+                          <div className='col-9 p-0'>
+                            <h6>Press Release</h6>
+                            <p>Some dummy text will go in here</p>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li className='col-12 col-md-4 '>
+                        <div className='row p-0 m-0'>
+                          <div className='col-3 p-0'>
+                            <FaMoneyBillAlt className='icon' />
+                          </div>
+                          <div className='col-9 p-0'>
+                            <h6>Governor's Profile </h6>
+                            <p>Some dummy text will go in here</p>
+                          </div>
+                        </div>
+                      </li>
+
+                    
+
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+
+
               <li className="nav-item">
                 <Link href={"/blog"}>
                   <a className="nav-link active">
@@ -165,7 +242,7 @@ export default function NavBar() {
                         </a>
                       </Link>
                     </li>
-                    <li>Statics</li>
+                    <li>Statitics</li>
                     <li>Financial inclusion</li>
                 </ul>
                   
