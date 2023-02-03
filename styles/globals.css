@@ -1664,6 +1664,8 @@ li.nav-item.has_dropdown {
   position: relative;
   display: block;
   padding-left: 20px;
+}
+
 .mobile_nav .checkbox {
   display: none;
 }
