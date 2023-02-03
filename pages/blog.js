@@ -100,7 +100,7 @@ export default function about() {
                                 <div className='category'>
                                     <BiPlay className='category-icon' />
                                     <h5>
-                                        <Link href={'/'}>
+                                        <Link href={'/blog-item'}>
                                             <a>Finance</a>
                                         </Link>
                                     </h5>
@@ -112,8 +112,8 @@ export default function about() {
                         </div>
                         <div className='text-holder'>
                             <h3 className='blog-title'>
-                                <Link href={'/'}>
-                                    <a>Objectives of the Loan</a>
+                                <Link href={'/blog-item'}>
+                                    <a>What is Financial Stability?</a>
                                 </Link>
                             </h3>
                         </div>
