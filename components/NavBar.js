@@ -12,8 +12,8 @@ export default function NavBar() {
       <header className="navbar navbar-white navbar-expand-sm bg-white fixed-top">
         <div className="container">
           <Link href={"/"}>
-            <a className="navbar-brand">
-              <img width={"200px"} src="https://images.ctfassets.net/di1zc7l0b6uf/4TAhYBRhEu4x4DtOpsfGz3/f51d4a6bd98663247fb9d56b0ff28278/boglogo.png" />
+            <a aria-label="Home" className="navbar-brand">
+              <img alt='logo' width={"200px"} src="https://images.ctfassets.net/di1zc7l0b6uf/4TAhYBRhEu4x4DtOpsfGz3/f51d4a6bd98663247fb9d56b0ff28278/boglogo.png" />
             </a>
           </Link>
 
