@@ -130,7 +130,7 @@ export default function NavBar() {
                     <ul className='row'>
 
                       <li className='col-12 col-md-4 '>
-                        <Link href={"/about"}>
+                        <Link href={"/blog"}>
                           <a className="nav-link active">
                             <div className='row p-0 m-0'>
                               <div className='col-3 p-0'>

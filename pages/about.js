@@ -45,7 +45,7 @@ export default function about() {
             <div className='row'>
                 <div className='col-6 col-xl-6 col-md-6 col-12'>
                     <div className='video-gallery'>
-                        <div className='video-gallery-bg' style={{ backgroundImage: 'url(/western.jpg)'}}></div>
+                        <div className='video-gallery-bg' style={{ backgroundImage: 'url(/economy2.jpg)'}}></div>
                         <div className='video-gallery-button'>
                             <div className='icon'>
                                 <Link href={'https://www.youtube.com/watch?v=h6HcAySZDTk&ab_channel=BankofUganda'}>
@@ -76,7 +76,7 @@ export default function about() {
                             <div className='col-xl-6 col-lg-6 col-md-6'>
                                 <div className='content-box'>
                                     <div className='img-box'>
-                                        <div className='inner-img-box' style={{ height: '270px', backgroundImage: 'url(/wildlife.jpg)'}}></div>
+                                        <div className='inner-img-box' style={{ height: '270px', backgroundImage: 'url(/journey.jpg)',backgroundPosition: '66% 60%', backgroundSize: 'cover'}}></div>
                                         <div className='overlay-text'>
                                             <h3>Our Journey</h3>
                                         </div>
