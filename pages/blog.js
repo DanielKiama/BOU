@@ -125,7 +125,7 @@ export default function about() {
                             <div className='inner'>
                                 <Image alt='' src={loan} width={350} height={270} />
                                 <div className='overlay-icon'>
-                                    <Link href={'/'}>
+                                    <Link href={'/blog-item'}>
                                         <a>
                                             <AiOutlineArrowRight />
                                         </a>
@@ -136,7 +136,7 @@ export default function about() {
                                 <div className='category'>
                                     <BiPlay className='category-icon' />
                                     <h5>
-                                        <Link href={'/'}>
+                                        <Link href={'/blog-item'}>
                                             <a>Finance</a>
                                         </Link>
                                     </h5>
@@ -148,7 +148,7 @@ export default function about() {
                         </div>
                         <div className='text-holder'>
                             <h3 className='blog-title'>
-                                <Link href={'/'}>
+                                <Link href={'/blog-item'}>
                                     <a>Eligibility for Refinance/Sub Loans</a>
                                 </Link>
                             </h3>
@@ -161,7 +161,7 @@ export default function about() {
                             <div className='inner'>
                                 <Image alt='' src={finance} width={350} height={270} />
                                 <div className='overlay-icon'>
-                                    <Link href={'/'}>
+                                    <Link href={'/blog-item'}>
                                         <a>
                                             <AiOutlineArrowRight />
                                         </a>
@@ -172,7 +172,7 @@ export default function about() {
                                 <div className='category'>
                                     <BiPlay className='category-icon' />
                                     <h5>
-                                        <Link href={'/'}>
+                                        <Link href={'/blog-item'}>
                                             <a>Finance</a>
                                         </Link>
                                     </h5>
@@ -184,7 +184,7 @@ export default function about() {
                         </div>
                         <div className='text-holder'>
                             <h3 className='blog-title'>
-                                <Link href={'/'}>
+                                <Link href={'/blog-item'}>
                                     <a>Eligible Purposes for Sub Loans</a>
                                 </Link>
                             </h3>
@@ -197,7 +197,7 @@ export default function about() {
                             <div className='inner'>
                                 <Image alt='' src={loan} width={350} height={270} />
                                 <div className='overlay-icon'>
-                                    <Link href={'/'}>
+                                    <Link href={'/blog-item'}>
                                         <a>
                                             <AiOutlineArrowRight />
                                         </a>
@@ -208,7 +208,7 @@ export default function about() {
                                 <div className='category'>
                                     <BiPlay className='category-icon' />
                                     <h5>
-                                        <Link href={'/'}>
+                                        <Link href={'/blog-item'}>
                                             <a>Finance</a>
                                         </Link>
                                     </h5>
@@ -220,7 +220,7 @@ export default function about() {
                         </div>
                         <div className='text-holder'>
                             <h3 className='blog-title'>
-                                <Link href={'/'}>
+                                <Link href={'/blog-item'}>
                                     <a>Collateral Requirements</a>
                                 </Link>
                             </h3>
@@ -233,7 +233,7 @@ export default function about() {
                             <div className='inner'>
                                 <Image alt='' src={finance} width={350} height={270} />
                                 <div className='overlay-icon'>
-                                    <Link href={'/'}>
+                                    <Link href={'/blog-item'}>
                                         <a>
                                             <AiOutlineArrowRight />
                                         </a>
@@ -244,7 +244,7 @@ export default function about() {
                                 <div className='category'>
                                     <BiPlay className='category-icon' />
                                     <h5>
-                                        <Link href={'/'}>
+                                        <Link href={'/blog-item'}>
                                             <a>Finance</a>
                                         </Link>
                                     </h5>
@@ -256,7 +256,7 @@ export default function about() {
                         </div>
                         <div className='text-holder'>
                             <h3 className='blog-title'>
-                                <Link href={'/'}>
+                                <Link href={'/blog-item'}>
                                     <a>Financing the Grain Trade</a>
                                 </Link>
                             </h3>
@@ -269,7 +269,7 @@ export default function about() {
                             <div className='inner'>
                                 <Image alt='' src={loan} width={350} height={270} />
                                 <div className='overlay-icon'>
-                                    <Link href={'/'}>
+                                    <Link href={'/blog-item'}>
                                         <a>
                                             <AiOutlineArrowRight />
                                         </a>
@@ -280,7 +280,7 @@ export default function about() {
                                 <div className='category'>
                                     <BiPlay className='category-icon' />
                                     <h5>
-                                        <Link href={'/'}>
+                                        <Link href={'/blog-item'}>
                                             <a>Finance</a>
                                         </Link>
                                     </h5>
@@ -292,7 +292,7 @@ export default function about() {
                         </div>
                         <div className='text-holder'>
                             <h3 className='blog-title'>
-                                <Link href={'/'}>
+                                <Link href={'/blog-item'}>
                                     <a>Procedure of Accessing the  Loan</a>
                                 </Link>
                             </h3>
@@ -305,7 +305,7 @@ export default function about() {
                             <div className='inner'>
                                 <Image alt='' src={finance} width={350} height={270} />
                                 <div className='overlay-icon'>
-                                    <Link href={'/'}>
+                                    <Link href={'/blog-item'}>
                                         <a>
                                             <AiOutlineArrowRight />
                                         </a>
@@ -316,7 +316,7 @@ export default function about() {
                                 <div className='category'>
                                     <BiPlay className='category-icon' />
                                     <h5>
-                                        <Link href={'/'}>
+                                        <Link href={'/blog-item'}>
                                             <a>Finance</a>
                                         </Link>
                                     </h5>
@@ -328,7 +328,7 @@ export default function about() {
                         </div>
                         <div className='text-holder'>
                             <h3 className='blog-title'>
-                                <Link href={'/'}>
+                                <Link href={'/blog-item'}>
                                     <a>Objectives of the Loan</a>
                                 </Link>
                             </h3>

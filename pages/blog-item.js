@@ -49,7 +49,7 @@ export default function blogItem() {
                                             can maintain its fundamental functions and is also 
                                             resilient to disruptions that threaten these functions. 
                                             By extension, financial instability is a material 
-                                            disruption to the system’s functions, which has 
+                                            disruption to the system functions, which has 
                                             damaging consequences for the real economy.
                                         </p>
                                     </div>
@@ -81,7 +81,7 @@ export default function blogItem() {
                                             banks will not be able to effect payments to each 
                                             other as well as to their customers. Another example 
                                             is a credit crunch, where access to credit is limited, 
-                                            affecting financial institutions’ ability to fund 
+                                            affecting financial institutions ability to fund 
                                             their lending activities.
                                         </p>
                                     </div>
