@@ -510,6 +510,38 @@ td{
   z-index: 10;
 }
 
+@media only screen and (max-width: 767px) {
+  .about-us-area {
+    padding: 0px !important;
+    padding-top: 0 !important;
+    padding-bottom: 100px !important;
+  }
+
+  .about-bg {
+    left: 15px !important;
+    right: 15px !important;
+    bottom: 100px !important;
+  }
+
+  .about-us-area .inner-content {
+    padding: 250px 0 0px;
+  }
+
+  .about-us-area .title {
+    position: relative !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    padding: 22px 30px 22px !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .about-us-area .title h2 {
+    font-size: 36px;
+  }
+}
+
 .about-us-area .title {
   position: absolute;
   left: 0;
@@ -1000,6 +1032,38 @@ td{
   letter-spacing: -0.02em;
 }
 
+@media only screen and (max-width: 767px) {
+  .career-area {
+    padding: 0px !important;
+    padding-top: 0 !important;
+    padding-bottom: 100px !important;
+  }
+
+  .career-bg {
+    left: 15px !important;
+    right: 15px !important;
+    bottom: 100px !important;
+  }
+
+  .career-area .inner-content {
+    padding: 250px 0 0px;
+  }
+
+  .career-area .title {
+    position: relative !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    padding: 22px 30px 22px !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .career-area .title h2 {
+    font-size: 36px;
+  }
+}
+
 /* Intro-section styles */
 .intro-section {
   position: relative;
@@ -1091,7 +1155,7 @@ td{
 }
 
 .job-listing-box .table-outer {
-  overflow-x: hidden;
+  overflow-x: auto;
   position: relative;
   width: 100%;
 }
@@ -1529,6 +1593,17 @@ li.nav-item.has_dropdown {
 .blog-details-img-box {
   position: relative;
   display: block;
+}
+
+@media only screen and (max-width: 767px) {
+  .sidebar-box {
+    padding-top: 80px;
+    margin-left: 20px;
+  }
+
+  .blog-details-box {
+    margin-right: 0;
+}
 }
 
 .blog-details-img-box .inner {
