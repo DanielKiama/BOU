@@ -252,26 +252,26 @@ export default function Home({ data }) {
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row"><img src="https://images.ctfassets.net/di1zc7l0b6uf/6RhsRPr8GIvVHiZARyY4k/a88a27247800b98adb7b0928fd528cee/us1.webp" /></th>
+                    <th scope="row"><img src="https://images.ctfassets.net/di1zc7l0b6uf/6RhsRPr8GIvVHiZARyY4k/a88a27247800b98adb7b0928fd528cee/us1.webp" alt="usd flag"/></th>
                     <td>USD</td>
                     <td>151.8213</td>
                     <td>154.0369</td>
                   </tr>
                   <tr>
 
-                    <th scope="row"><img src="https://images.ctfassets.net/di1zc7l0b6uf/26EShwKWxOkJKCpqj7RMSc/345aad91702a74e2821bf0a1d44d3e99/ca.webp" /></th>
+                    <th scope="row"><img src="https://images.ctfassets.net/di1zc7l0b6uf/26EShwKWxOkJKCpqj7RMSc/345aad91702a74e2821bf0a1d44d3e99/ca.webp" alt="cad flag" /></th>
                     <td>CAD</td>
                     <td>11.7658</td>
                     <td>113.8016</td>
                   </tr>
                   <tr>
-                    <th scope="row"><img src="https://images.ctfassets.net/di1zc7l0b6uf/2EztpYXj3k1ctjCyLYCx9e/925951170ec518c01d8164c541487259/uk.webp" /></th>
+                    <th scope="row"><img src="https://images.ctfassets.net/di1zc7l0b6uf/2EztpYXj3k1ctjCyLYCx9e/925951170ec518c01d8164c541487259/uk.webp" alt="gbp flag" /></th>
                     <td>GBP</td>
                     <td>180.701</td>
                     <td>185.8248</td>
                   </tr>
                   <tr>
-                    <th scope="row"><img src="https://images.ctfassets.net/di1zc7l0b6uf/4C17um4rB5toAF0JUx9jc0/c950f76684c635a11e1eb0483d921979/eu.webp" /></th>
+                    <th scope="row"><img src="https://images.ctfassets.net/di1zc7l0b6uf/4C17um4rB5toAF0JUx9jc0/c950f76684c635a11e1eb0483d921979/eu.webp" alt="eur flag" /></th>
                     <td>EUR</td>
                     <td>162.9618</td>
                     <td>168.0259</td>
