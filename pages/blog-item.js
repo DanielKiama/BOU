@@ -112,6 +112,11 @@ export default function blogItem() {
                                             <a>Investments</a>
                                         </Link>
                                     </li>
+                                    <li className='item-1'>
+                                        <Link href={'/'}>
+                                            <a>Press</a>
+                                        </Link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
